@@ -1,0 +1,52 @@
+@media(max-width: 1280px){
+    body{
+        padding: 0 40px;
+    }
+}
+
+@media(max-width: 768px){
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .informacoes .descricao{
+        width: 60%;
+        
+    }
+}
+
+@media(max-width: 425px){
+    .informacoes .logo{
+        max-width: 300px;
+        
+    }
+
+    .informacoes .descricao{
+        width: 100%;
+        text-align: center;
+       
+    }
+
+    .menu-lateral{
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .menu-lateral ul{
+        flex-direction: row;
+        gap: 30px
+    }
+
+    .conteudo{
+        min-height: 90vh;
+        gap: 50px
+    }
+
+   
+
+}
+
